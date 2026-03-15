@@ -1,0 +1,48 @@
+<!-- Forms in HTML  -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <h1>Form to apply as a Teaacher </h1>
+    <form action="post">
+        <div>
+            <label for="username">Enter yor usename : </label>
+            <input autofocus type="text" id="username" name="username" placeholder="Enter your username">
+        </div>
+
+        <div>
+            <input type="radio" id="Male" name="gender" value="Male">
+            <label for="Male">Male</label>
+            <input type="radio" id="Female" name="gender" value="Female">
+            <label for="Female">Female</label>
+        </div>
+
+        <div>
+            <input type="checkbox" id="subscribe" value="yes" name="subscribe">
+            <label for="subscribe">Subscribe to me</label>
+        </div>
+
+        <div>
+            <label for="comment">Enter your comment : </label>
+            <br>
+            <textarea id="comment" name="comment" rows="4" cols="50"></textarea>
+        </div>
+
+        <div>
+            <select name="fruits" id="">
+                <option value="Apple">Apple</option>
+                <option value="Banana">Banana</option>
+                <option value="Cherry">Cherry</option>
+            </select>
+        </div>
+
+    </form>
+</body>
+
+</html>
