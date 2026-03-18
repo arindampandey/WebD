@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Float and Clear</title>
+    <style>
+        img{
+            float: left;
+            /* float: right; */
+        }
+        .cards{
+            border: 2px solid black;
+            display: flow-root;
+        }
+        .card{
+            border: 2px solid blue;
+        }
+        .card:nth-child(3){
+            background-color: aqua;
+            clear: right; /* No element can be added at right */
+            /* clear: both; */
+        }
+    </style>
+</head>
+<body>
+    <div class="cards">
+        <img width="200px" src="https://imgs.search.brave.com/znD2oBCKeP-vq8Bogbe70Yq9ualjKxWSw-kjlP6r9o0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pMC53/cC5jb20vcGljanVt/Ym8uY29tL3dwLWNv/bnRlbnQvdXBsb2Fk/cy9zaWxob3VldHRl/LW9mLXlvdW5nLWJs/b25kZS13aXRoLXNo/b3J0LWhhaXItb24t/b3JhbmdlLWJhY2tn/cm91bmQtZnJlZS1p/bWFnZS5qcGVnP2g9/ODAwJnF1YWxpdHk9/ODA" alt="">
+        <div class="card">
+             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt delectus reiciendis sequi eum hic recusandae eveniet quibusdam eaque accusantium fugit inventore temporibus quam, molestias quo et reprehenderit soluta dolorem alias odit dignissimos magni!  
+        </div>
+        <div class="card">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ea velit doloribus error sed laudantium earum accusantium amet totam? Adipisci dolorum doloribus autem optio a, eius repellat hic. At quod inventore error rem, dolorem suscipit aspernatur libero ducimus maxime delectus voluptatibus provident dolore ea unde earum tenetur non minus porro. Voluptates neque nostrum modi nulla maxime.
+        </div>
+        <div class="card">Card 3</div>
+    </div>
+</body>
+</html>
