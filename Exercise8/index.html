@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ball Bounce</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            background-color: rgb(188, 255, 202);
+            height: 56.5vw;
+            width: 100vw;
+            position: relative;
+        }
+
+        .ball {
+            height: 70px;
+            width: 70px;
+            border: 1px solid #11d448;
+            background: radial-gradient(circle at bottom, #ffffff, #11d448);
+            /* background-color: rgb(28, 206, 66); */
+            border-radius: 60px;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            animation: MoveUp 2s ease-out infinite alternate, MoveF 2s linear infinite, bounce 2s ease-in-out infinite;
+        }
+
+        @keyframes MoveF {
+            from {
+                left: 0;
+            }
+
+            to {
+                left: 50%;
+            }
+        }
+
+        @keyframes MoveUp {
+            from {
+                bottom: 0;
+            }
+
+            to {
+                bottom: 80%;
+            }
+        }
+
+        @keyframes bounce {
+            0% {
+                rotate: 0;
+            }
+
+            20% {
+                rotate: (350deg);
+            }
+
+            50% {
+                transform: scale(90%);
+            }
+
+            80% {
+                rotate: (350deg);
+            }
+
+            100% {
+                rotate: (350deg);
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="ball">
+
+        </div>
+    </div>
+</body>
+
+</html>
