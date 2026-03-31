@@ -1,0 +1,75 @@
+<!-- IMP for interview -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            background-color: rgb(1, 45, 81);
+            margin: 14px;
+            padding: 14px;
+        }
+
+        .childcontainer {
+            background-color: rgb(0, 136, 255);
+            margin: 14px;
+            padding: 14px;
+        }
+
+        .child {
+            background-color: rgb(100, 171, 230);
+            margin: 14px;
+            padding: 14px;
+            color: aliceblue;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <section class="childcontainer">
+            <div class="child">
+                I am a child
+            </div>
+        </section>
+    </div>
+    <script>
+        document.querySelector(".child").addEventListener("click", (e) => {
+            alert("Child was clicked !")
+            e.stopPropagation()
+        })
+        document.querySelector(".childcontainer").addEventListener("click", (e) => {
+            alert("Childcontainer was clicked !")
+            e.stopPropagation()
+        })
+        document.querySelector(".container").addEventListener("click", (e) => {
+            alert("Container was clicked !")
+            e.stopPropagation()
+        })
+
+
+        function getrandomcolor() {
+            let r = Math.floor(Math.random() * 256);
+            let g = Math.floor(Math.random() * 256);
+            let b = Math.floor(Math.random() * 256);
+            let color = `rgb(${r}, ${g}, ${b})`;
+            return color;
+        }
+
+        // setInterval(() => {
+        //     document.querySelector(".child").style.backgroundColor = getrandomcolor()
+        // }, 1000);
+
+        //setTimeout runs only for once
+        setTimeout(() => {
+            document.querySelector(".child").style.backgroundColor = getrandomcolor()
+        }, 5000);
+
+
+    </script>
+</body>
+
+</html>
