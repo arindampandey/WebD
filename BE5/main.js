@@ -16,7 +16,7 @@ app.use((req, res, next) => {
     fs.appendFileSync("new.txt", `${Date.now()} is a ${req.method}\n`)
     console.log(`${Date.now()} is a ${req.method}`)
     // res.send("Middleware 1")
-    next() // if next is not used then no response , server will stuck .
+    next() // if next is not used then no response , server will stuckk .
 })
 
 //Middleware 2
