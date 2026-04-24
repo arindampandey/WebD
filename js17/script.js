@@ -6,7 +6,7 @@ console.log(a1);
     // let b = await sleep()
     // console.log(b);
 
-    // let [x, y, rest] = [1, 5, 7, 8, 9, 10]
+    // let [x, y, rest] = [1, 5, 6, 8, 9, 10]
     // console.log(x, y, rest)
 
     let obj = {
