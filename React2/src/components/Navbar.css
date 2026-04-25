@@ -1,0 +1,18 @@
+body{
+    background-color: rgb(161, 199, 201);
+}
+
+nav,ul{
+    display: flex;
+    gap: 114px;
+    justify-content: space-around;
+}
+
+nav 
+{
+    background-color: rgb(175, 238, 238);
+    border: 1px solid white;
+    border-radius: 34px;
+    padding: 20px;
+    margin: 10px;
+}
