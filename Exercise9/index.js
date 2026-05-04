@@ -10,7 +10,7 @@ This faulty calculator does following:
 - ---> /
 / ---> **
 
-It performs wrong operation 10% of the times
+It performs wrong operation 10% of the timess
 
 */
 
