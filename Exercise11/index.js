@@ -1,7 +1,7 @@
 //Factorial of 6
 
 //Using reduce method
-let arr = [6, 5, 4, 3, 2, 1]
+let arr = [7,6, 5, 4, 3, 2, 1]
 
 const fact = (a, b) => {
     return a * b
