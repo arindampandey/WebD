@@ -1,4 +1,4 @@
-// CRUD Operation
+// CRUD Operations
 use("crudDB")
 
 // Create
