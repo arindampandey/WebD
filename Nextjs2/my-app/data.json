@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "name": "Arjun Sharma",
+        "city": "Mumbai",
+        "language": "JavaScript",
+        "experience": 2
+    },
+    {
+        "id": 2,
+        "name": "Priya Verma",
+        "city": "Delhi",
+        "language": "Python",
+        "experience": 1
+    },
+    {
+        "id": 3,
+        "name": "Rahul Mehta",
+        "city": "Bangalore",
+        "language": "C++",
+        "experience": 3
+    },
+    {
+        "id": 4,
+        "name": "Sneha Patel",
+        "city": "Pune",
+        "language": "Java",
+        "experience": 2
+    },
+    {
+        "id": 5,
+        "name": "Karan Singh",
+        "city": "Hyderabad",
+        "language": "React",
+        "experience": 4
+    },
+    {
+        "id": 6,
+        "name": "Aditi Roy",
+        "city": "Kolkata",
+        "language": "Node.js",
+        "experience": 1
+    },
+    {
+        "id": 7,
+        "name": "Vikram Joshi",
+        "city": "Chennai",
+        "language": "Go",
+        "experience": 5
+    },
+    {
+        "id": 8,
+        "name": "Neha Kapoor",
+        "city": "Ahmedabad",
+        "language": "TypeScript",
+        "experience": 2
+    },
+    {
+        "id": 9,
+        "name": "Rohan Das",
+        "city": "Indore",
+        "language": "PHP",
+        "experience": 3
+    },
+    {
+        "id": 10,
+        "name": "Meera Nair",
+        "city": "Jaipur",
+        "language": "MongoDB",
+        "experience": 1
+    }
+]
